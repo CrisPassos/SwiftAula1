@@ -12,6 +12,9 @@
 		AC259FFC1E5E477C0006873D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC259FFA1E5E477C0006873D /* Main.storyboard */; };
 		AC259FFE1E5E477C0006873D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC259FFD1E5E477C0006873D /* Assets.xcassets */; };
 		AC25A0011E5E477C0006873D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC259FFF1E5E477C0006873D /* LaunchScreen.storyboard */; };
+		AC25A0091E5E480A0006873D /* Label.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC25A0081E5E480A0006873D /* Label.storyboard */; };
+		AC25A00B1E5E4D390006873D /* Button.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC25A00A1E5E4D390006873D /* Button.storyboard */; };
+		AC25A0111E5E563E0006873D /* Textfield.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC25A0101E5E563E0006873D /* Textfield.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		AC259FFD1E5E477C0006873D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC25A0001E5E477C0006873D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC25A0021E5E477C0006873D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC25A0081E5E480A0006873D /* Label.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Label.storyboard; path = ../Label.storyboard; sourceTree = "<group>"; };
+		AC25A00A1E5E4D390006873D /* Button.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Button.storyboard; sourceTree = "<group>"; };
+		AC25A0101E5E563E0006873D /* Textfield.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Textfield.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		AC259FF51E5E477C0006873D /* DesenvAula1 */ = {
 			isa = PBXGroup;
 			children = (
+				AC25A0081E5E480A0006873D /* Label.storyboard */,
 				AC259FF61E5E477C0006873D /* AppDelegate.swift */,
 				AC259FF81E5E477C0006873D /* ViewController.swift */,
 				AC259FFA1E5E477C0006873D /* Main.storyboard */,
 				AC259FFD1E5E477C0006873D /* Assets.xcassets */,
 				AC259FFF1E5E477C0006873D /* LaunchScreen.storyboard */,
 				AC25A0021E5E477C0006873D /* Info.plist */,
+				AC25A00A1E5E4D390006873D /* Button.storyboard */,
+				AC25A0101E5E563E0006873D /* Textfield.storyboard */,
 			);
 			path = DesenvAula1;
 			sourceTree = "<group>";
@@ -125,7 +134,10 @@
 			files = (
 				AC25A0011E5E477C0006873D /* LaunchScreen.storyboard in Resources */,
 				AC259FFE1E5E477C0006873D /* Assets.xcassets in Resources */,
+				AC25A0111E5E563E0006873D /* Textfield.storyboard in Resources */,
 				AC259FFC1E5E477C0006873D /* Main.storyboard in Resources */,
+				AC25A0091E5E480A0006873D /* Label.storyboard in Resources */,
+				AC25A00B1E5E4D390006873D /* Button.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
